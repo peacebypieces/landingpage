@@ -17,12 +17,10 @@ nav {
 .logo {
     padding-left: 120px;
     border: 0px;
-    color: white;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-nav h2 {
-    
-}
 
 nav ul {
     padding-right: 120px;
@@ -33,6 +31,8 @@ nav li {
     display: inline-block;
     list-style: none;
     padding-right: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .main {
@@ -41,13 +41,19 @@ nav li {
     background-color: #1F2937;
 }
 
-.main h2, .main p {
+.main .hero, .main p {
     margin: 0px;
     margin-left: 120px;
 }
 
-.main h2 {
-    color: white;
+.main .hero {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.main p {
+    font-size:large
 }
 
 
