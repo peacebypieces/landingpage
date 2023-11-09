@@ -7,17 +7,47 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    max-height: fit-content;
+    margin-bottom: 0px;
+}
+
+
+.logo {
+    padding-left: 120px;
+    border: 0px;
+    color: white;
+}
+
+nav h2 {
+    
+}
+
+nav ul {
+    padding-right: 120px;
+    border: 0px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.main {
+    padding-top: 50px;
+    margin: 0px;
     background-color: #1F2937;
 }
 
-.logo {
-    display: flex;
-    font-family: ;
+.main h2, .main p {
+    margin: 0px;
+    margin-left: 120px;
 }
 
-
-nav li {
-    display: flex;
-    list-style: none;
+.main h2 {
+    color: white;
 }
+
 
