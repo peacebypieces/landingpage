@@ -36,24 +36,37 @@ nav li {
 }
 
 .main {
-    padding-top: 50px;
+    padding-top: 75px;
     margin: 0px;
     background-color: #1F2937;
+    flex-direction: row;
 }
 
-.main .hero, .main p {
+.hero {
+    max-width: 50%
+}
+
+.main .hero h6, .main .hero p {
     margin: 0px;
     margin-left: 120px;
 }
 
-.main .hero {
+.main .hero h6 {
     font-weight: 800;
     font-size: 48px;
     color: #F9FAF8;
 }
 
-.main p {
-    font-size:large
+.main .hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main img {
+    flex-grow: 1;
+    max-width: 50%;
+    max-height: 100%;
+    margin-left: 120px;
 }
 
 
