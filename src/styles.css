@@ -109,5 +109,6 @@ nav li {
     display: inline-block;
     justify-content: center;
     list-style: none;
+    align-items: center;
 }
 
