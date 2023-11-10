@@ -50,7 +50,7 @@ nav li {
     margin-bottom: 10%;
 }
 
-.main .hero h6, .main .hero p {
+.main .hero h6, .main .hero p, .main button {
     margin: 0px;
     margin-left: 120px;
 }
@@ -61,9 +61,16 @@ nav li {
     color: #F9FAF8;
 }
 
+
 .main .hero p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main .hero button {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .main img {
