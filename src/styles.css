@@ -94,6 +94,7 @@ nav li {
 
 .body1 {
     background: white;
+    padding-bottom: 5%;
 }
 
 .body1 h2 {
@@ -109,7 +110,6 @@ nav li {
     flex: 1;
     padding-right: 360px;
     padding-left: 360px;
-    margin-bottom: 4%;
 }
 
 .list ul {
@@ -129,4 +129,32 @@ nav li {
     width: 70%;
     align-items: center;
 }
+
+.quote {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.quote .q {
+    flex: 1;
+    padding: 0;
+    margin-left: 480px;
+    margin-right: 480px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote .pq {
+    margin-right: 500px;
+    font-weight: 600;
+    font-size: large;
+}
+
+
 
