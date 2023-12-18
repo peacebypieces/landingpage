@@ -156,5 +156,34 @@ nav li {
     font-size: large;
 }
 
+.signup {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:white;
+    padding-left: 240px;
+    padding-right: 240px;
+}
 
+.signup .blue {
+    background-color:#3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup .blue .text p {
+    flex: 1;
+    margin-left: 40%;
+    color: white;
+}
+
+.signup .blue .text .tp {
+    font-weight: 700;
+}
+
+.signup .blue button {
+    margin-right: 40%;
+    border: none;
+}
 
