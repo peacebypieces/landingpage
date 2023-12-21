@@ -170,12 +170,14 @@ nav li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .signup .blue .text p {
     flex: 1;
-    margin-left: 40%;
     color: white;
+    margin-left: 200px;
 }
 
 .signup .blue .text .tp {
@@ -183,7 +185,27 @@ nav li {
 }
 
 .signup .blue button {
-    margin-right: 40%;
     border: none;
+    margin-right: 200px;
+    background-color: #3882F6;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    border-color: white;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    color: white;
 }
 
